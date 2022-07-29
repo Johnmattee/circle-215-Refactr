@@ -4,15 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+    <title>Redactr</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h2>make some magic here!!</h2>
+   <header>
+    <h1>Redactr</h1>
+ </header>
+ <div class="container">
+    <h3>Find and Replace Text</h3>
+    <p>This text replacement tool helps you to share content on social media by scrambling portions of text you don't want the world to see/read. Just paste your text in the input form below and specify the words to scramble. You get a replaced text when you click the Redact Now button</p>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<form action="" id="form">
+    <div class="form-row">
+        <label for="input">Input text:</label>
+        <textarea name="input" id="input" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="form-row">
+        <label for="find">Find text:</label>
+        <input type="text" name = 'search' id="search">
+    </div>
+
+    <div class="form-row">
+        <label for="replace">Replace with:</label>
+        <input type="text" name="replace" id="replace">
+    </div>
+
+    <div class="button">
+        <button  id ='btn' class="btn">Redact Now</button>
+        <button id='stat' class="stat">Text Stats</button>
+    </div>
+</form>
+
+<div class="output"></div>
+ </div>
+
+ <footer>
+    <p>Copyright &copy; 2022 circle-215</p>
+    </footer>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>

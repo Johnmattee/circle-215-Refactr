@@ -1,0 +1,239 @@
+
+
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+
+    background-color: #eaeff1;
+
+}
+
+
+
+header{
+
+    background-color: rgb(9, 110, 150);
+
+    padding: 0.6em 1em;
+
+    color: rgb(228, 209, 209);
+
+    font-family: Verdana;
+
+    font-size: 1.4rem;
+
+    width: 100%;
+
+}
+
+
+
+
+
+.container{
+
+    border: 1px solid #bacdd8;
+
+    border-radius: 0.9em;
+
+    margin: 4em auto;
+
+    width: 25em;
+
+    padding: 1em 1.5em;
+
+    font-family: Arial;
+
+    background-color: white;
+
+}
+
+
+
+.container h3{
+
+    text-align: center;
+
+    font-size: 2.5rem;
+
+    color: rgb(9, 110, 150);
+
+    font-weight: lighter;
+
+    margin-bottom: 0.4em;
+
+}
+
+
+
+.container p{
+
+    line-height: 1.5;
+
+    font-size: 1.2em;
+
+    margin-bottom: 0.6em;
+
+}
+
+ 
+
+.container label{
+
+    display: inline-block;
+
+    font-size: larger;
+
+    margin-bottom: 0.2em;
+
+    background-color: rgb(228, 209, 209);
+
+}
+
+
+
+.container input{
+
+width: 100%;
+
+border-radius: 0.2em;
+
+border: 1px solid grey;
+
+margin-bottom: 0.8em;
+
+padding: 0.4em 0.4em;
+
+font-size: 1.2rem;
+
+}
+
+
+
+.container textarea{
+
+    width: 100%;
+
+    resize: none;
+
+    border-radius: 0.3em;
+
+    margin-bottom: 0.8em;
+
+    font-size:1.2rem;
+
+    border:1px solid grey;
+
+}
+
+
+
+.container .button{
+
+display: flex;
+
+justify-content: space-between;
+
+}
+
+
+
+
+
+.container button{
+
+    outline: none;
+
+    font-size: 1rem;
+
+    padding: 0.8em 0.4em;
+
+    background-color: rgba(11, 124, 168, 0.438);
+
+    color: rgb(1, 52, 71);
+
+    border: none;
+
+    border-radius: 0.3em;
+
+    font-weight: bold;
+
+}
+
+
+
+.btn:hover, .stat:hover{
+
+    background-color: rgb(9, 110, 150);
+
+    color:rgb(228, 209, 209);
+
+}
+
+
+
+.output{
+
+    margin-top: 1em;
+
+    border-top: 1px solid rgb(184, 182, 182);
+
+    padding-top: 1em;
+
+}
+
+
+
+
+
+footer{
+
+  background-color: rgb(9, 110, 150);
+
+  text-align: center;
+
+  padding: 0.6em 1em;
+
+  color: rgb(228, 209, 209);
+
+  font-family: Verdana;
+
+  padding: 1em 0;
+
+}
+
+
+
+
+
+@media (max-width:400px) {
+
+ header{
+
+    font-size: 0.9rem;
+
+    padding: 0.9em 1em;
+
+ }       
+
+
+
+ .container{
+
+    width: 90vw;
+
+ }
+
+ 
+
+  }
